@@ -1,12 +1,12 @@
 {
-	"font_size": 15,
+    "font_size": 15,
     //是否检查更新
     "update_check": false,
-	"ignored_packages":
-	[
-		"Vintage"	// Vim模式
-	],
-	// 是否显示行号边栏
+    "ignored_packages":
+    [
+        "Vintage"	// Vim模式
+    ],
+    // 是否显示行号边栏
     "gutter": true,
     // 按回车时，自动与制表位对齐
     "auto_indent": true,
@@ -22,7 +22,7 @@
     "save_on_focus_lost": true,
     // 保存的时候把无用的空格去掉
     "trim_trailing_white_space_on_save": true,
-	// Tab转换
+    // Tab转换
     "tab_size": 4,
     "translate_tabs_to_spaces": true,
     // 自动换行
@@ -52,7 +52,7 @@
     // 全文突出显示和当前选中字符相同的字符
     "match_selection": true,
     // 距离上一行的高度
-    "line_padding_top": 2,         //行高
+    "line_padding_top": 2,
     // 距离下一行的高度
     "line_padding_bottom": 2,
 }
