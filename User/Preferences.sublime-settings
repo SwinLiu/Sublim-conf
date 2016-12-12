@@ -1,58 +1,36 @@
 {
-    "font_size": 15,
-    //是否检查更新
-    "update_check": false,
-    "ignored_packages":
-    [
-        "Vintage"	// Vim模式
-    ],
-    // 是否显示行号边栏
-    "gutter": true,
-    // 按回车时，自动与制表位对齐
-    "auto_indent": true,
-    //行号
-    "line_numbers": true,
-    // 行号边栏和文字的间距
-    "margin": 4,
-    // 显示当前文件的编码
-    "show_encoding": true,
-    // 高亮编辑中的那一行
-    "highlight_line": true,
-    // 焦点丢失后自动保存
-    "save_on_focus_lost": true,
-    // 保存的时候把无用的空格去掉
-    "trim_trailing_white_space_on_save": true,
-    // Tab转换
-    "tab_size": 4,
-    "translate_tabs_to_spaces": true,
-    // 自动换行
-    "word_wrap": false,
-    // 宽度指导线
-    "rulers": [120],
-    // 拼写检查
-    "spell_check": false,
-    // 要不要滚过头
-    "scroll_past_end": true,
-    // 显示Tab、空格
-    "draw_white_space": "all",
-    // 侧边栏文件夹显示加粗，区别于文件
-    "bold_folder_labels": true,
-    // 显示全路径
-    "show_full_path": true,
-    // 设置光标闪动方式
-    "caret_style": "smooth",
-    // 是否突出显示圆括号，match_brackets为true生效
-    "match_brackets_square": false,
-    // 是否突出显示大括号，match_brackets为true生效
-    "match_brackets_braces": false,
-    // 是否突出显示尖括号，match_brackets为true生效
-    "match_brackets_angle": false,
-    // html和xml下突出显示光标所在标签的两端，影响HTML、XML、CSS等
-    "match_tags": true,
-    // 全文突出显示和当前选中字符相同的字符
-    "match_selection": true,
-    // 距离上一行的高度
-    "line_padding_top": 2,
-    // 距离下一行的高度
-    "line_padding_bottom": 2,
+	"auto_indent": true,
+	"bold_folder_labels": true,
+	"caret_style": "smooth",
+	"draw_white_space": "all",
+	"font_size": 15,
+	"gutter": true,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_numbers": true,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"margin": 4,
+	"match_brackets_angle": false,
+	"match_brackets_braces": false,
+	"match_brackets_square": false,
+	"match_selection": true,
+	"match_tags": true,
+	"rulers":
+	[
+		120
+	],
+	"save_on_focus_lost": true,
+	"scroll_past_end": true,
+	"show_encoding": true,
+	"show_full_path": true,
+	"spell_check": false,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false,
+	"word_wrap": false
 }
